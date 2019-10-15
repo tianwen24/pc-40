@@ -1,3 +1,4 @@
+// 管理项目中统一的数据
 import Vue from 'vue'
 import Vuex from 'vuex'
 

@@ -1,10 +1,13 @@
 import Vue from 'vue'
+// 导入第三包 vue-router
 import Router from 'vue-router'
+// 导入一个组件 Home
 import Home from './views/Home.vue'
 
 Vue.use(Router)
 
 export default new Router({
+  // 设置路由选项
   routes: [
     {
       path: '/',
