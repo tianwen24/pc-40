@@ -7,6 +7,11 @@ import router from './router'
 // 导入vuex
 import store from './store'
 
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
+
+Vue.use(ElementUI)
+
 // 设置为 开发模式
 Vue.config.productionTip = false
 
